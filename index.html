@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+
+<div class="toolbar">
+    <a href="">Add Recipe</a>
+    <a href="./secondIndex.html"> All Recipes </a>
+</div>
+
+
+<div class="main">
+    <div class="recipe" >
+        <div class="recipeInputs" >
+            <input type="text" placeholder="Title" class="title" />
+            <div>
+                <input type="text" placeholder="Ingridient (at least 3)" class="ingridient" />
+                <button class="addIngridient">Add</button>
+            </div>
+            <input type="text" placeholder="Description" class="description" />
+            <input type="number" placeholder="Calories" class="calories" />
+            <button class="getPhoto">GET PHOTO</button>
+            <button class="getRecipe">PREVIEW RECIPE</button>
+        </div>
+    </div>
+
+
+    <div class="previewRecipe" >
+        <div class="previewOutputs" >
+            <div class="container">
+                <img id="image" src="" alt="">
+            </div>
+            <div class="previewText" >
+                <div class="previewTitle" ></div>
+                <div class="previewDescription" ></div>
+                <div class="previewCalories" ></div>
+            </div>
+        </div>
+        <ul class="previewIngridients"></ul>
+        <button class="addRecipe">ADD RECIPE TO LIST </button>
+
+
+    </div>
+
+</div>
+
+</body>
+</html>

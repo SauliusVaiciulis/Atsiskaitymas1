@@ -1,0 +1,92 @@
+.toolbar {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    margin: 20px;
+    border-bottom: 1px solid black;
+
+}
+.main {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+}
+.recipe {
+    border-radius: 0.3rem;
+    padding: 30px;
+    background-color: #bbbaba;
+    height: fit-content;
+}
+.previewRecipe {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    background-color: #bbbaba;
+}
+.recipeInputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.previewOutputs {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+}
+.previewText {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 150px;
+    overflow: hidden;
+}
+.previewTitle {
+    font-size: 25px;
+    align-self: center;
+    margin-bottom: 10px;
+}
+.previewCalories {
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.previewIngridients {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    padding: 3px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #777675;
+}
+a {
+    font-size: 30px;
+    font-weight: 600;
+    color: #7e7979;
+    text-decoration: none;
+}
+
+.container {
+    width: 60%;
+    height: 200px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
